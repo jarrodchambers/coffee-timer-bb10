@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+
+.error { 
+			color: red 
+		}
+body {
+			font: 100%/1.4 Calibri,Verdana, Arial, Helvetica, sans-serif;
+
+}
+#sensei { 
+   font-family: Arial;   
+
+}

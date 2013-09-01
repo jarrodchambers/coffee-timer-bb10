@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta http-equiv="Content-Type" 
+              content="text/html; charset=UTF-8"> 
+        <title>Coffee Timer</title> 
+		<link rel="stylesheet" href="bbui-min.css" />
+		<script type="text/javascript" src="bbui-min.js"></script>
+        <script type="text/javascript" src="local:///chrome/webworks.js"></script>
+		<script type="text/javascript" src="custom.js"></script>
+        <script type="text/javascript">
+          document.addEventListener('webworksready', function(e) {
+              bb.init({controlsDark: true, onscreenready : function(element, id, params) {
+                           screenReady(element, id, params);
+                       },
+					   ondomready: function(element, id, params) {
+                           domReady(element, id, params);
+                       }});
+              // Open our first screen
+              bb.pushScreen('button.html', 'button');
+          }, false);
+        </script>
+    </head> 
+    <body> 
+    </body> 
+</html>

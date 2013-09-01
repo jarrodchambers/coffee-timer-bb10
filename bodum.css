@@ -1,0 +1,46 @@
+
+/*
+#coffee {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	background: brown;
+}
+
+#plunger {
+    position: absolute;
+	top: 45%;
+	left: 0;
+	width: 50%;
+	height: 5%;
+	background: gray;
+}
+
+#stem {
+    position: absolute;
+	top: 0%;
+	left: 45%;
+	width: 40px;
+	height: 45%;
+	background: transparent;
+}
+*/
+
+
+#clock {
+    color: green;
+	font-size: 120px;
+	margin-left: 34%;
+	margin-right: auto;
+}
+
+
+#press {
+    margin-top: 0;
+    margin-left: 32%;
+	margin-right: auto;
+}
+
+	

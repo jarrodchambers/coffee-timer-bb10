@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<widget xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    version="1.0.0.0" id="CoffeeTimerApp">   
+   
+    <name>Coffee Timer</name> 
+    <author>Offhanded Applications</author>
+    <description>French press coffee should be allowed to brew for exactly 4 minutes before plunging to remove the grounds.  Coffee Timer is an animated 4 minute timer which will help you brew the perfect cup of joe.</description>
+    <icon src="images/new_icon_128_128.png"/>
+	<rim:splash src="images/logo_768x1280.png"/>
+	<rim:splash src="images/logo_720x720.png"/>
+    <content src="index.html"/> 
+	<feature id="blackberry.ui.dialog" />
+	<feature id="blackberry.app">
+       <param name="backgroundColor" value="0xff000000" />
+    </feature>
+    <feature id="blackberry.app">
+      <param name="orientation" value="portrait" />
+    </feature>
+</widget>
